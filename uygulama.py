@@ -8,6 +8,9 @@ from fonksiyonlar import tablo_goruntule
 veritabani_olustur()
 ornek_veritabanı()
 
+buton=st.button("Örnek Veri Ekle")
+if buton:
+    ornek_veritabanı()
 with st.expander("Müşteri Ekle"):
     with st.form("Müşteri Ekle", clear_on_submit=True):
         ad = (st.text_input("Ad: ")).lower()
