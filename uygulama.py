@@ -6,6 +6,7 @@ import streamlit as st
 from fonksiyonlar import tablo_goruntule
 
 veritabani_olustur()
+ornek_veritabanı()
 
 with st.expander("Müşteri Ekle"):
     with st.form("Müşteri Ekle", clear_on_submit=True):
