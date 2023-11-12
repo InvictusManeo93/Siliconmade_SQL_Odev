@@ -6,7 +6,7 @@ import streamlit as st
 from fonksiyonlar import tablo_goruntule
 
 veritabani_olustur()
-ornek_veritabanı()
+
 
 buton=st.button("Örnek Veri Ekle")
 if buton:
